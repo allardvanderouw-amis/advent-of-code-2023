@@ -10,7 +10,7 @@ const getLineValue = (lines, lineIndex) => {
 
 const run = () => {
   let sum = 0
-  const lines = input2.trim().split('\n')
+  const lines = input1.trim().split('\n')
 
   for (let lineIndex = 0; lineIndex < lines.length; lineIndex += 1) {
     const lineValue = getLineValue(lines, lineIndex)
